@@ -2,7 +2,8 @@
 
 | **Name**           | **Type**     | **Attributes**           | **Key**     | **Note**                                     |
 | ------------------ | ------------ | ------------------------ | ----------- | -------------------------------------------- |
-| ID_Auto            | BIGINT(20)   | NOT NULL, AUTO INCREMENT | Primary Key | ID unico dell'automobile                     |
+| ID_Auto            | BIGINT(20)   | AUTO_INCREMENT, NOT NULL | Primary Key | ID unico dell'automobile                     |
+| Numero_Telaio      | CHAR(17)     | NOT NULL                 |             | Numero di telaio dell'automobile             |
 | Marca              | VARCHAR(20)  | NOT NULL                 |             | Marca dell'automobile                        |
 | Modello            | VARCHAR(30)  | NOT NULL                 |             | Modello dell'automobile                      |
 | Anno_Fabbricazione | INT          | NOT NULL                 |             | Anno di fabbricazione dell'automobile        |
