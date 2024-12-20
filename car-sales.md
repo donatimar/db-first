@@ -10,5 +10,5 @@
 | Chilometraggio     | INT          | NOT NULL                 |             | KM percorsi dall'automobile                  |
 | Colore             | VARCHAR(20)  | NOT NULL                 |             | Colore dell'automobile                       |
 | Prezzo             | DECIMAL(9,1) | NOT NULL                 |             | Prezzo di vendita dell'automobile            |
-| Data_Inserimento   | YEAR         | NOT NULL                 |             | Data inserimento nel sistema dell'automobile |
+| Data_Inserimento   | DATE         | NOT NULL                 |             | Data inserimento nel sistema dell'automobile |
 | Disponibilità      | BOOLEAN      | NOT NULL                 |             | Disponibilità dell'automobile                |
